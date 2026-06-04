@@ -2,10 +2,10 @@
 
 **Angaben gemäß § 5 TMG**
 
-Vorname Nachname  
-Musterstraße 1  
-12345 Musterstadt
+Jörg Römhild  
+Lichtensteinstraße 22  
+72072 Tübingen
 
 **Kontakt**
 
-E-Mail: kontakt@beispiel.de
+E-Mail: [einladung@buero-desk-booking.de](mailto:einladung@buero-desk-booking.de)
