@@ -3,15 +3,14 @@
 ## Letzter Stand
 
 **Version:** v1.6.1 (gepusht)  
-**Zuletzt abgeschlossen:** composer.json Extension-Anforderungen deklariert (Issue #10 geschlossen)
+**Zuletzt abgeschlossen:** Issue #11 — `{{VAR_NAME}}`-Platzhalter in Gallery-JSON via `.env`
 
 ### Abgeschlossen in dieser Session
 
-**Issue #10 — composer.json Platform-Anforderungen**
-- `composer.json` — Prod-Extensions in `require` deklariert: `ext-ctype`, `ext-curl`, `ext-filter`, `ext-hash`, `ext-iconv`, `ext-mbstring`, `php >=8.0`
-- `composer.json` — Dev-only Extensions in `require-dev`: `ext-dom`, `ext-xml`, `ext-libxml`, `ext-xmlwriter`, `ext-json`, `ext-phar`, `ext-tokenizer`
-- `composer install --no-dev` schlägt auf Servern ohne phpunit-Extensions nicht mehr fehl
-- Issue #10 auf GitHub geschlossen
+**Issue #11 — Topbar-Links via `.env` konfigurierbar**
+- `public/index.php` — `$gallery()` löst `{{VAR_NAME}}`-Platzhalter in allen JSON-String-Werten über `$_ENV` auf (generisch, nicht auf APP_URL beschränkt)
+- `.env.example` — `APP_URL` und `ADMIN_URL` als auskommentierte Beispiele dokumentiert
+- Issue #11 auf GitHub geschlossen
 
 ---
 
