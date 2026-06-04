@@ -2,16 +2,14 @@
 
 ## Letzter Stand
 
-**Version:** v1.6.0 (gepusht)  
-**Zuletzt abgeschlossen:** Section Flags — alle Hauptsektionen per `.env` de-/aktivierbar
+**Version:** v1.6.1 (gepusht)  
+**Zuletzt abgeschlossen:** Section Flags auf Navigation ausgeweitet
 
 ### Abgeschlossen in dieser Session
 
-**Section Flags**
-- `$section()`-Closure in `index.php`
-- `home.php` — alle 5 Sections gewrappt, Lightbox läuft mit Gallery mit
-- `.env.example` — Flags dokumentiert
-- `CHANGELOG.md`, `README.md`, `DESIGN_PATTERN.md` aktualisiert
+**Section Flags — Navigation**
+- `templates/partials/header.php` — Nav-Links in Desktop- und Mobile-Nav mit `$section()`-Guards gewrappt
+- Deaktivierte Sections erzeugen keine toten Anchor-Links mehr in der Navigation
 
 ---
 
