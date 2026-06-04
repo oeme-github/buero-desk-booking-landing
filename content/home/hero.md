@@ -1,3 +1,5 @@
-# Willkommen
+# Smarter Arbeitsplatz. Einfach gebucht.
 
-Kurze Beschreibung oder Call-to-Action. Diesen Text im Template anpassen.
+Desk Booking ist eine selbst gehostete Lösung für die flexible Arbeitsplatzverwaltung — sicher, datenschutzkonform und auf deine Organisation zugeschnitten.
+
+<a href="https://app.buero-desk-booking.de" class="btn">Zur App</a>

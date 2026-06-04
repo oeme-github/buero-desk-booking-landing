@@ -1,3 +1,3 @@
-# Über uns
+# Was kann Desk Booking?
 
-Beschreibung der Organisation oder des Projekts. Diesen Text im Template anpassen.
+Von der Einzelbuchung bis zur Serienbuchung, von der Regelkonfiguration bis zur Teamverwaltung — alles in einer Anwendung.

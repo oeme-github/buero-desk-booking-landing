@@ -4,13 +4,13 @@ declare(strict_types=1);
 // Security headers are set in public/index.php
 
 // @var string $pageH1
-$pageH1 = $pageH1 ?? 'Mein One-Pager';
+$pageH1 = $pageH1 ?? 'Desk Booking';
 ?>
 
 <!-- Topbar -->
 <div class="topbar">
     <div class="topbar-inner">
-        <span>One-Pager Template</span>
+        <span>buero-desk-booking.de</span>
         <?php $topbarLinks = $gallery('home/topbar-links'); if ($topbarLinks): ?>
         <nav class="topbar-links" aria-label="Externe Links">
             <?php foreach ($topbarLinks as $link):
@@ -32,7 +32,7 @@ $pageH1 = $pageH1 ?? 'Mein One-Pager';
 <header class="header">
     <div class="header-inner">
         <a href="/#top" class="logo" aria-label="Startseite">
-            <img class="logo-img" src="/assets/logo/logo_mark.svg" alt="Mein One-Pager" width="40" height="40" />
+            <img class="logo-img" src="/assets/logo/logo_mark.svg" alt="Desk Booking" width="40" height="40" />
         </a>
 
         <h1><?= htmlspecialchars($pageH1, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') ?></h1>
