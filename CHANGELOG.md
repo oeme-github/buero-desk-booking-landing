@@ -1,3 +1,20 @@
+## [Unreleased]
+
+### Added
+
+#### Session 2026-06-05 — Logos und Favicons
+
+- `public/assets/logo/` — alle 6 Logo-Varianten neu erstellt: `logo_mark`, `logo_mark_white`, `logo_primary`, `logo_primary_white`, `logo_secondary`, `logo_secondary_white`; ersetzen Inkscape-Platzhalter (Baum-SVG); Basis ist das Desk-Booking-Icon (blaues Quadrat, Schreibtisch, Kalender, Häkchen); Wordmark-Varianten mit „Desk Booking" in Inter Bold (zweifarbig: Blau + Dunkelgrau); weiße Varianten für dunkle Hintergründe
+- `public/assets/icons/` — `icon.svg` ersetzt (war 61 KB Inkscape-Datei); alle PNG-Favicons (`16×16`, `32×32`, `apple-touch-icon 180px`, `android-chrome 192/512px`) und `favicon.ico` neu aus korrektem SVG gerendert (Inkscape)
+
+### Fixed
+
+#### Session 2026-06-05 — Tippfehler in `.env`
+
+- `.env` — `APP_ULR` → `APP_URL` korrigiert; verhinderte dass `{{APP_URL}}`-Placeholder in `topbar-links.json` ersetzt wurde
+
+---
+
 ## v1.6.0 – Section Flags
 
 ### Added
