@@ -4,12 +4,13 @@
 
 Verantwortlicher im Sinne der DSGVO:
 
-**Jörg Römhild**
-Lichtensteinstraße 22
-72072 Tübingen
-Deutschland
+**[Vor- und Nachname oder Organisationsname]**  
+[Straße und Hausnummer]  
+[PLZ Ort]  
+[Land]
 
-E-Mail: [datenschutz@buero-desk-booking.de](mailto:datenschutz@buero-desk-booking.de)
+E-Mail: [datenschutz@beispiel.de]  
+Telefon: [+49 ...]
 
 ---
 
@@ -35,7 +36,7 @@ Beim Abruf dieser Website speichert der Webserver automatisch folgende Daten in 
 
 **Speicherdauer:** Protokolldateien werden nach spätestens 14 Tagen gelöscht oder anonymisiert, sofern kein Sicherheitsvorfall eine längere Aufbewahrung erfordert.
 
-**Hosting:** Diese Website wird gehostet bei netcup GmbH, Daimlerstraße 25, 76185 Karlsruhe. Mit dem Hoster besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.
+**Hosting:** Diese Website wird gehostet bei [Name und Adresse des Hosting-Anbieters, z. B. Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen]. Mit dem Hoster besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.
 
 ---
 
@@ -66,6 +67,8 @@ Diese Daten sind nicht personenbezogen, verlassen Ihren Browser nicht und werden
 
 ## 5. Kontaktformular
 
+> ℹ️ Dieser Abschnitt ist relevant, wenn `FORM_TYPE=contact` gesetzt ist.
+
 Wenn Sie das Kontaktformular nutzen, werden folgende Daten verarbeitet:
 
 - Ihr Name
@@ -80,7 +83,48 @@ Die Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage per E-Mail an den
 
 ---
 
-## 6. Ihre Rechte
+## 6. SEPA-Lastschriftmandat
+
+> ℹ️ Dieser Abschnitt ist relevant, wenn `FORM_TYPE=sepa` gesetzt ist.
+
+Wenn Sie das SEPA-Formular nutzen, werden folgende Daten zur Erstellung eines Lastschriftmandats verarbeitet:
+
+- Vor- und Nachname
+- Anschrift
+- Geburtsdatum
+- IBAN (Internationale Bankkontonummer)
+- Bankname (automatisch ermittelt, siehe Abschnitt 7)
+- Telefonnummer (optional)
+- Herkunft (optional)
+- Mitgliedschafts- oder Spendendetails (Betrag, Intervall, Quartal)
+
+Die Daten werden zur Erstellung eines PDF-Mandats verwendet, das per E-Mail an den Verantwortlichen übermittelt wird. Eine Speicherung in einer Datenbank findet nicht statt.
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung).
+
+**Speicherdauer:** Das Mandat unterliegt den gesetzlichen Aufbewahrungsfristen. Für steuerlich relevante Belege beträgt die Aufbewahrungsfrist gemäß § 147 AO in der Regel 10 Jahre.
+
+---
+
+## 7. Bankname-Ermittlung über openiban.com
+
+> ℹ️ Dieser Abschnitt ist relevant, wenn `FORM_TYPE=sepa` gesetzt ist.
+
+Zur automatischen Ermittlung des Banknamens anhand der eingegebenen IBAN wird diese an den externen Dienst **openiban.com** übermittelt. Es werden keine weiteren personenbezogenen Daten übertragen.
+
+- **Anbieter:** openiban.com (Drittanbieter)
+- **Übermittelte Daten:** IBAN
+- **Zweck:** Anzeige des Banknamens als Orientierungshilfe für den Nutzer
+
+**Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung).
+
+Sofern openiban.com Daten außerhalb des Europäischen Wirtschaftsraums (EWR) verarbeitet, erfolgt die Übermittlung auf Basis der Standardvertragsklauseln der EU-Kommission (Art. 46 Abs. 2 lit. c DSGVO).
+
+> **Hinweis für Betreiber:** Prüfen Sie die aktuellen Datenschutzhinweise von openiban.com und passen Sie diesen Abschnitt ggf. an.
+
+---
+
+## 8. Ihre Rechte
 
 Sie haben gegenüber dem Verantwortlichen folgende Rechte hinsichtlich Ihrer personenbezogenen Daten:
 
@@ -91,21 +135,21 @@ Sie haben gegenüber dem Verantwortlichen folgende Rechte hinsichtlich Ihrer per
 - **Datenübertragbarkeit** (Art. 20 DSGVO)
 - **Widerspruch** (Art. 21 DSGVO)
 
-Zur Wahrnehmung Ihrer Rechte wenden Sie sich bitte an: [datenschutz@buero-desk-booking.de](mailto:datenschutz@buero-desk-booking.de)
+Zur Wahrnehmung Ihrer Rechte wenden Sie sich bitte an: [datenschutz@beispiel.de]
 
 ---
 
-## 7. Beschwerderecht
+## 9. Beschwerderecht
 
 Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten zu beschweren. Die zuständige Aufsichtsbehörde richtet sich nach dem Bundesland des Verantwortlichen.
 
-Eine Liste der Aufsichtsbehörden in Deutschland finden Sie unter:
+Eine Liste der Aufsichtsbehörden in Deutschland finden Sie unter:  
 [https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html](https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html)
 
 ---
 
-## 8. Aktualität
+## 10. Aktualität
 
-Diese Datenschutzerklärung wurde zuletzt aktualisiert am: 05.06.2026
+Diese Datenschutzerklärung wurde zuletzt aktualisiert am: [TT.MM.JJJJ]
 
 Wir behalten uns vor, diese Erklärung bei Änderungen der Website oder der Rechtslage anzupassen.
