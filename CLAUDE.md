@@ -27,10 +27,11 @@ Before ending a session:
    ```
 3. Windows-Kopie synchronisieren (WSL2 ist primär — Windows zieht nach):
    ```bash
-   git -C /mnt/f/git_repos/websitetemplate pull
+   git -C /mnt/f/git_repos/buero-desk-booking-landing pull
    ```
+4. Sage **"Session beenden"** im Hub (dev-notes) — Claude erstellt dort die Übergabe-Notiz.
 
-Das stellt sicher dass `F:\git_repos\websitetemplate` auf Windows immer aktuell ist.
+Das stellt sicher dass `F:\git_repos\buero-desk-booking-landing` auf Windows immer aktuell ist.
 
 ## Project Overview
 
