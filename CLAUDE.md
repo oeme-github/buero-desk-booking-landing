@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Startup
 
-> Claude Code wird aus WSL2 gestartet: `cd ~/git_repos/websitetemplate && claude`
+> Claude Code wird aus WSL2 gestartet: `cd ~/git_repos/buero-desk-booking-landing && claude`
 
 The following files are automatically loaded at startup (via `@` import):
 - @BACKLOG.md - **Check first**: Contains last session status and where to continue work
