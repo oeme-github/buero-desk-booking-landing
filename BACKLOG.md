@@ -63,3 +63,14 @@
   plus toter Windows-Mirror-Sync-Schritt (`/mnt/f/git_repos/...`, seit WSL-Ablösung 2026-09-02
   nicht mehr funktionsfähig). Gemeinsam mit `friendsofthehawks`/`websitetemplate` zu betrachten
   (gemeinsame `websitetemplate`-Abstammung). Siehe `dev-notes/BACKLOG.md` D08, `dev-notes_F02`.
+  **✅ Erledigt (2026-09-05):** Komplett neu geschrieben nach dem neuen „Code-Template-Ableitung"-
+  Muster (`dev-notes/STANDARDS.md` §3) — Architektur/Setup/Testing/Dependencies nicht mehr
+  dupliziert, nur noch Verweis auf `websitetemplate` + echte instanzspezifische Fakten. Dabei
+  entdeckt: `CLAUDE.md` referenzierte durchgehend falsche Pfade/Configs von `websitetemplate`
+  selbst statt der eigenen (nie angepasster Copy-Paste-Rest) — jetzt korrigiert.
+- **buero-desk-booking-landing_D02** (neu, gefunden bei D01): `README.md` ist noch die
+  unveränderte generische Template-Beschreibung („One-Pager Website Template", „Use this
+  template"-Anleitung) statt repo-spezifisch angepasst zu sein. Zusätzlich liegt eine ungenutzte
+  `setup/apache/websitetemplate.conf` neben der tatsächlich verwendeten
+  `buero-desk-booking-landing.conf` — vermutlich derselbe nie aufgeräumte Klon-Rest. Aufräumen
+  (README anpassen oder bewusst als Ausnahme dokumentieren, tote Config-Datei entfernen).
