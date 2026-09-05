@@ -58,3 +58,8 @@
 - **Screenreader-Test SEPA-Formular**: manueller Test (NVDA/VoiceOver) — kein Code-Task
 - **Issue #1** (SEPA rechtlich): Wartet auf Juristencheck / Pflichttexte
 - **Issue #5** (Logging): Wartet auf Entscheidung zu Request-ID
+- **buero-desk-booking-landing_D01**: CLAUDE.md auf dev-notes-Template umstellen — eigene
+  englische Struktur, keine STANDARDS.md-Referenz, WSL2 noch als primäre Umgebung beschrieben
+  plus toter Windows-Mirror-Sync-Schritt (`/mnt/f/git_repos/...`, seit WSL-Ablösung 2026-09-02
+  nicht mehr funktionsfähig). Gemeinsam mit `friendsofthehawks`/`websitetemplate` zu betrachten
+  (gemeinsame `websitetemplate`-Abstammung). Siehe `dev-notes/BACKLOG.md` D08, `dev-notes_F02`.
