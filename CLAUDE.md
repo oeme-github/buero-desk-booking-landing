@@ -27,7 +27,7 @@ Gemeinsame Devbox-Umgebung: siehe `dev-notes/REPOS.md` („Speicherorte"). Gener
   siehe `buero-desk-booking-landing_D02`)
 - **Zweck dieser Instanz:** Landing Page für `buero-desk-booking.de`
 
-### Startup-Routine — projektspezifische Ergänzungen
+## Startup-Routine — projektspezifische Ergänzungen
 Generischer Kern: siehe `dev-notes/STANDARDS.md` §2. Keine zusätzlichen Schritte für dieses
 Projekt.
 
