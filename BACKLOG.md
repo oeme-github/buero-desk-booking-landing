@@ -44,20 +44,17 @@
 
 ---
 
-## Offene Issues (GitHub)
+## Offene Issues
 
-| # | Titel | Priorität | Status |
-|---|-------|-----------|--------|
-| #1 | SEPA-Flow rechtlich finalisieren | Offen | Wartet auf Juristencheck |
-| #5 | Logging-Strategie (DEV vs PROD) | Offen | Wartet auf Entscheidung |
+Keine repo-eigenen offenen GitHub-Issues. SEPA-Flow (rechtlich) und Logging-Strategie (DEV vs.
+PROD) sind Template-Themen und werden ausschließlich in `oeme-github/websitetemplate` als Issues
+#1 und #5 getrackt (weiterhin offen dort) — nicht hier duplizieren, siehe `CLAUDE.md`.
 
 ---
 
 ## Zurückgestellt
 
 - **Screenreader-Test SEPA-Formular**: manueller Test (NVDA/VoiceOver) — kein Code-Task
-- **Issue #1** (SEPA rechtlich): Wartet auf Juristencheck / Pflichttexte
-- **Issue #5** (Logging): Wartet auf Entscheidung zu Request-ID
 - **buero-desk-booking-landing_D01**: CLAUDE.md auf dev-notes-Template umstellen — eigene
   englische Struktur, keine STANDARDS.md-Referenz, WSL2 noch als primäre Umgebung beschrieben
   plus toter Windows-Mirror-Sync-Schritt (`/mnt/f/git_repos/...`, seit WSL-Ablösung 2026-09-02
