@@ -50,15 +50,11 @@ Keine repo-eigenen offenen GitHub-Issues. SEPA-Flow (rechtlich) und Logging-Stra
 PROD) sind Template-Themen und werden ausschließlich in `oeme-github/websitetemplate` als Issues
 #1 und #5 getrackt (weiterhin offen dort) — nicht hier duplizieren, siehe `CLAUDE.md`.
 
-- **buero-desk-booking-landing_D03** (neu 2026-09-30, gefunden bei der Impressum-Umstellung TMG → DDG,
-  dev-notes-Hub-Session): Der Server-Checkout auf netcup (`/var/www/buero-desk-booking-landing`)
-  steht auf `1aadbb4` (Juni) und damit weit hinter `main`. Die Live-Seite zeigte ihr Impressum nur,
-  weil die dortige alte `impressum.example.md` noch echte Daten enthielt — im aktuellen Repo ist sie
-  (nach Template-Merge) ein Platzhalter, ein `git pull` hätte Platzhalter veröffentlicht. Behoben
-  durch serverlokale `content/legal/impressum.md` (Stand wie lokal, „§ 5 DDG“, bewusst nicht
-  committet). Offen: Server-Checkout kontrolliert auf `main` bringen (vorher `git status`/Diff
-  prüfen, `datenschutz.md` ist ebenfalls serverlokal), Deploy-Weg dokumentieren
-  (`DEPLOYMENT.md`), `websitetemplate`-Stand v1.7.0 + DDG-Fix (`6ac1482`) mergen.
+- **buero-desk-booking-landing_D05** (aus `D03` abgetrennt, 2026-10-12): `websitetemplate`-Stand v1.7.0 +
+  DDG-Fix (`6ac1482`) mergen. Lokal fehlt der `template`-Remote
+  (`git remote add template https://github.com/oeme-github/websitetemplate.git`). Echter Merge mit
+  lokalem Test (`php -S`, PHPUnit/Jest), danach Update auf PROD laut `DEPLOYMENT.md`. Instanz-Matrix:
+  Landingpage `buero-desk-booking.de` (netcup · PROD; kein STAGING/TEST).
 
 - **buero-desk-booking-landing_D04** (neu 2026-10-12, dev-notes-Hub, Prüfung Demo-Modus ↔ Admin-VPN):
   Die Kopfzeile verlinkt „Admin“ auf `admin.buero-desk-booking.de` — seit `euviaio_F70` nur per

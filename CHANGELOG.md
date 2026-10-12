@@ -1,5 +1,22 @@
 ## [Unreleased]
 
+### Fixed
+
+#### `buero-desk-booking-landing_D03` Server-Checkout auf `main` (abgeschlossen 2026-10-12)
+Der Checkout auf netcup (`/var/www/buero-desk-booking-landing`) stand auf `master @ 1aadbb4` (Juni,
+Seitenzweig; `main` trug dieselbe Änderung als eigenen Commit). Unterschied zu `main` nur `BACKLOG.md`,
+`CLAUDE.md`, `impressum.example.md`, `copyright.example.json`. Falle: Impressum und Urheber-Vermerk
+kamen nur zufällig aus den alten `*.example.*`-Dateien mit echten Daten — im aktuellen Repo sind es
+Platzhalter. Deshalb zuerst serverlokal `content/legal/impressum.md` (2026-09-30, § 5 DDG) und
+`content/legal/copyright.json` angelegt, dann `git checkout -B main origin/main` (User). Von außen
+geprüft: `/`, `/impressum`, `/datenschutz` 200, Impressum „§ 5 DDG“ mit echten Daten, Footer
+„© 2026 · Jörg Römhild“. Deploy-Weg und serverlokale Dateien in `DEPLOYMENT.md`. Template-Merge
+v1.7.0 abgetrennt als `D05`.
+
+| Instanz | Stand | Datum | Ergebnis |
+|---|---|---|---|
+| Landingpage `buero-desk-booking.de` (netcup · PROD) | `main` (`7554162`) | 2026-10-12 | ✓ |
+
 ### Added
 
 #### Session 2026-06-05 — Logos und Favicons
