@@ -60,6 +60,16 @@ PROD) sind Template-Themen und werden ausschließlich in `oeme-github/websitetem
   prüfen, `datenschutz.md` ist ebenfalls serverlokal), Deploy-Weg dokumentieren
   (`DEPLOYMENT.md`), `websitetemplate`-Stand v1.7.0 + DDG-Fix (`6ac1482`) mergen.
 
+- **buero-desk-booking-landing_D04** (neu 2026-10-12, dev-notes-Hub, Prüfung Demo-Modus ↔ Admin-VPN):
+  Die Kopfzeile verlinkt „Admin“ auf `admin.buero-desk-booking.de` — seit `euviaio_F70` nur per
+  Admin-VPN erreichbar, Besucher landen auf 403. **User-Entscheidung 2026-10-12 (Tendenz A):** Admin
+  aus der Demo nehmen — Admin-Link aus der Kopfzeile entfernen, stattdessen den Admin-Teil auf der
+  Landingpage mit ein paar Screenshots zeigen (Galerie, `content/home/gallery.json` serverlokal bzw.
+  Inhalt, Bilder aus der Demo-Instanz, keine echten Personendaten). Gegenstück in der App:
+  `buero-desk-booking_D99` (Demo-Admin-Anmeldung abschalten); Hintergrund `euviaio_F118`. Reihenfolge:
+  nach `D03` (Server-Checkout auf `main`). Instanz-Matrix: Landingpage `buero-desk-booking.de`
+  (netcup · PROD; kein STAGING/TEST vorhanden — lokal per `php -S` prüfen).
+
 ---
 
 ## Zurückgestellt
