@@ -12,3 +12,7 @@ public/assets/videos/*.mov
 # Customer content files: ignored in template repo, tracked here (deployment repo)
 !content/**/*.md
 !content/**/*.json
+
+# Instance-only legal files with real data: server-local, never committed (DEPLOYMENT.md, D03)
+content/legal/impressum.md
+content/legal/copyright.json
